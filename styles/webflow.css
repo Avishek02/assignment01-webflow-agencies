@@ -151,11 +151,70 @@ header .banner {
     font-weight: 400;
     color: rgba(0, 0, 0, 0.5);
     margin: 0;
-
-
 }
 
 
+
+/* Get in touch section  */
+.get-in-touch-section {
+    display: flex;
+    gap: 2rem;
+    margin: 0 150px 115px 150px;
+}
+
+
+.get-in-touch-section h1 {
+    font-family: "Raleway", sans-serif;
+    font-size: 90px;
+    font-weight: bold;
+    color: #000000;
+}
+
+
+.get-in-touch-section h1,
+.get-in-touch-section form {
+    flex: 1;
+}
+
+
+.get-in-touch-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.get-in-touch-section .form-item {
+    margin-bottom: 1rem;
+}
+
+
+.form-item input,
+.form-item textarea {
+    width: 100%;
+    padding: 32px 20px;
+    border-radius: 10px;
+    border-color: rgba(0, 0, 0, 0.5);
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border: none;
+    font-family: "Inter",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+
+
+
+.form-item label {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+
+
+.get-in-touch-btn {
+    width: 110%;
+}
 
 
 
