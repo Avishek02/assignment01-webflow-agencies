@@ -236,6 +236,40 @@ header .banner {
 }
 
 
+/* Free sign up styles */
+.free-signup-section{
+    margin: 0 150px 90px 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 70px 150px;
+    border-radius: 14px;
+}
+
+.free-signup-section .title{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.free-signup-section .subtitle{
+    margin: 20px auto;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.free-signup-btn{
+    padding: 12px 36px;
+}
+
+.free-signup-section img{
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+
 /* Get in touch section  */
 .get-in-touch-section {
     display: flex;
