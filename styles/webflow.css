@@ -1,5 +1,5 @@
 /* common styles */
-.primary-bg-color {
+.primary-color {
     color: #4E47FF;
 }
 
@@ -50,10 +50,51 @@ header .banner {
 .banner-title {
     color: #252432;
     text-align: center;
-    font-family: "Raleway",sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 65px;
 }
 
 
 
+
+/* footer styles */
+footer {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 105px 455px;
+}
+
+.footer-logo {
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    margin: 0 auto;
+}
+
+.footer-description {
+    color: rgba(137, 135, 161, 1);
+    text-align: center;
+    width: 100%;
+}
+
+.footer-links ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+}
+
+.footer-links li {
+    margin-right: 48px;
+}
+
+
+.footer-links a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+}
