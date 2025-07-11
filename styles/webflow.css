@@ -155,6 +155,73 @@ header .banner {
 
 
 
+/* Users feedback styles */
+.users-feedback-section {
+    margin: 0 150px 135px 150px;
+}
+
+.users-feedback-headline{
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    color: rgba(37, 36, 50, 1);
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-users-feedback {
+    display: flex;
+    gap: 20px;
+}
+
+
+.users-feedback-card {
+    flex: 1;
+    padding: 24px;
+    background-color: rgba(242, 237, 237, 1);
+    border-radius: 14px;
+}
+
+
+.users-feedback-title,
+.users-feedback-sub-title {
+    color: #1E1E1E;
+}
+
+
+.reviewer-container {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer-img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: block;
+    object-fit: cover;
+}
+
+.reviewer-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 12px;
+    padding: 0;
+}
+
+.reviewer-details h4 {
+    margin: 0;
+}
+
+.reviewer-name {
+    color: #757575;
+}
+
+.review-date {
+    color: #B3B3B3;
+}
+
+
 /* Get in touch section  */
 .get-in-touch-section {
     display: flex;
@@ -198,7 +265,7 @@ header .banner {
     background-color: #FFFFFF;
     margin-top: 10px;
     border: none;
-    font-family: "Inter",sans-serif;
+    font-family: "Inter", sans-serif;
     font-weight: 400;
     font-size: 20px;
 }
